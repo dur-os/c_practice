@@ -6,7 +6,6 @@ int main(void){
 	char ch[34];
 	source = (float)0.75;
 	memcpy(&data, &source, 4);
-	printf("%lu\n",data);
 	for(int i = 33;i >= 0;i--){
 		if(i== 11 || i== 1){
 			ch[i] = '-';
